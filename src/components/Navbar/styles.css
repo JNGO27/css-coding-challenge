@@ -1,0 +1,11 @@
+.navbar {
+  --navbar-height: 50px;
+  --spacing-vertical: 0;
+  --spacing-horizontal: calc(var(--spacing) * 5); /* 20px */
+
+  display: flex;
+  align-items: center;
+  height: var(--navbar-height);
+  padding: var(--spacing-vertical) var(--spacing-horizontal);
+  background-color: var(--primary-color);
+}
