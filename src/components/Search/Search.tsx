@@ -6,7 +6,7 @@ type InputEvent = ChangeEvent<HTMLInputElement>;
 const Search = () => {
   const [value, setValue] = useState("");
 
-  const handleSearchValue = (event: InputEvent): void => {
+  const handleSearchInputChange = (event: InputEvent): void => {
     setValue(event.target.value);
   };
 
@@ -15,7 +15,7 @@ const Search = () => {
       className="search"
       placeholder={`Search ("/" for hotkey)`}
       value={value}
-      onChange={handleSearchValue}
+      onChange={handleSearchInputChange}
     />
   );
 };
