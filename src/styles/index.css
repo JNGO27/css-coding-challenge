@@ -1,5 +1,5 @@
 :root {
-  --background-color: #1d2b38;
+  --primary-color: #1d2b38;
 }
 
 *,
@@ -8,4 +8,21 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
 }
