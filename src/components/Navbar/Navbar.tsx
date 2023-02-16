@@ -1,9 +1,11 @@
 import "./styles.css";
 
+import { Logo } from "..";
+
 const Navbar = () => {
   return (
     <header className="navbar">
-      <h1>Initial Setup</h1>
+      <Logo pathName="/" />
     </header>
   );
 };

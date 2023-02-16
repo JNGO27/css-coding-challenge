@@ -1,0 +1,18 @@
+.logo-container {
+  --gap-spacing: calc(var(--spacing) * 2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-spacing);
+}
+
+.logo-container__company-name {
+  --company-name-fs: 20px;
+  --company-name-boldness: var(--fw-light);
+  --company-name-color: hsl(0, 0%, 100%);
+
+  font-size: var(--company-name-fs);
+  font-weight: var(--company-name-boldness);
+  color: var(--company-name-color);
+}
