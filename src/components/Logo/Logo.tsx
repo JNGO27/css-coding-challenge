@@ -1,10 +1,9 @@
 import "./styles.css";
 import CM_LOGO from "../../assets/CM_logo-icon.svg";
-
-type ValidPathNames = ["", "dashboard", "internalTools"];
+import type { ValidLogoPathNames } from "../../types";
 
 type Props = {
-  pathName: `/${ValidPathNames[number]}`;
+  pathName: `/${ValidLogoPathNames}`;
 };
 
 const Logo = ({ pathName }: Props) => {
