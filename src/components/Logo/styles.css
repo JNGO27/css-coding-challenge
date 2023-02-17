@@ -17,7 +17,7 @@
   color: var(--company-name-color);
 }
 
-@media (max-width: 502px) {
+@media (max-width: 530px) {
   .logo-container {
     margin-right: calc(var(--spacing) * 5);
   }
