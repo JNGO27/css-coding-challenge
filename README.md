@@ -1,6 +1,6 @@
 **Coding Challenge: CSS**:
 
-This is my final thoughts on the CSS coding challenge. I have my starting thoughts on `StarterNotes.md`.
+Starter thoughts on `StarterNotes.md`.
 
 ---
 
