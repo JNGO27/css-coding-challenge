@@ -16,7 +16,10 @@ const Logo = ({ pathName }: Props) => {
           alt="company-logo"
           title="Chartmetric Logo"
         />
-        <figcaption className="logo-container__company-name">
+        <figcaption
+          className="logo-container__company-name"
+          aria-label="company-name"
+        >
           Chartmetric
         </figcaption>
       </figure>

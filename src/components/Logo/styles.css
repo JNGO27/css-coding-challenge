@@ -16,3 +16,13 @@
   font-weight: var(--company-name-boldness);
   color: var(--company-name-color);
 }
+
+@media (max-width: 502px) {
+  .logo-container {
+    margin-right: calc(var(--spacing) * 5);
+  }
+
+  .logo-container__company-name {
+    display: none;
+  }
+}
