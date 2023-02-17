@@ -60,5 +60,12 @@ a {
   filter: invert(80%);
   background-color: transparent;
   background-repeat: no-repeat;
+  transition: 0.3s;
   cursor: pointer;
+}
+
+@media (pointer: fine) {
+  .icon-general:hover {
+    filter: invert(100%);
+  }
 }
