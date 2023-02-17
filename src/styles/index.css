@@ -50,3 +50,14 @@ input {
 a {
   text-decoration: none;
 }
+
+.icon-general {
+  --icon-size: 24px;
+
+  width: var(--icon-size);
+  height: var(--icon-size);
+  border: none;
+  filter: invert(80%);
+  background-color: transparent;
+  cursor: pointer;
+}

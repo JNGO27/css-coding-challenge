@@ -3,7 +3,7 @@ import { Announcements, Notifications, Menu } from "..";
 
 const NavbarOptions = () => {
   return (
-    <div>
+    <div className="navbar-options-container">
       <Announcements />
       <Notifications />
       <Menu />
