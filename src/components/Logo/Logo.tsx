@@ -1,5 +1,5 @@
 import "./styles.css";
-import { CM_LOGO } from "../../assets";
+import CM_LOGO from "../../assets/CM_logo-icon.svg";
 import type { ValidLogoPathNames } from "../../types";
 
 type Props = {
