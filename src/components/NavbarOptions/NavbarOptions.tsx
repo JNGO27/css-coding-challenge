@@ -1,9 +1,10 @@
 import "./styles.css";
-import { Announcements, Notifications, Menu } from "..";
+import { Search, Announcements, Notifications, Menu } from "..";
 
 const NavbarOptions = () => {
   return (
     <div className="navbar-options-container">
+      <Search />
       <Announcements />
       <Notifications />
       <Menu />

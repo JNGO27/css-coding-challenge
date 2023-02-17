@@ -1,6 +1,6 @@
 import "./styles.css";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
-import { Logo, Search, NavbarOptions } from "..";
+import { Logo, NavbarOptions } from "..";
 
 const Navbar = () => {
   useDocumentTitle();
@@ -8,7 +8,6 @@ const Navbar = () => {
   return (
     <header className="navbar">
       <Logo pathName="/" />
-      <Search />
       <NavbarOptions />
     </header>
   );

@@ -5,6 +5,7 @@
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: var(--navbar-height);
   padding: var(--spacing-vertical) var(--spacing-horizontal);
   background-color: var(--primary-color);
