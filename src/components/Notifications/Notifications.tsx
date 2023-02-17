@@ -3,6 +3,8 @@ import "./styles.css";
 const Notifications = () => {
   const handleNotificationsLogic = (): void => {
     // Omitted for brevity, but this is where the logic, for onClick go.
+    // eslint-disable-next-line no-console
+    console.log("Notifications");
   };
 
   return (

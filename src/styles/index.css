@@ -59,5 +59,6 @@ a {
   border: none;
   filter: invert(80%);
   background-color: transparent;
+  background-repeat: no-repeat;
   cursor: pointer;
 }
