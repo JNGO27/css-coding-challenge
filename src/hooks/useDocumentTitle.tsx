@@ -8,10 +8,7 @@ const useDocumentTitle = () => {
 
   useEffect(() => {
     // For now only handling document title Logo Paths
-    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-    title !== "" && LogoPathNames[title] !== undefined
-      ? (document.title = `Chartmetric - ${LogoPathNames[title]}`)
-      : (document.title = `Chartmetric`);
+    document.title = `Chartmetric - ${LogoPathNames[title]}`;
   }, [title]);
 };
 

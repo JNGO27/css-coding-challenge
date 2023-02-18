@@ -51,6 +51,7 @@
       }
     ],
     "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "import/no-cycle": "off"
   }
 }

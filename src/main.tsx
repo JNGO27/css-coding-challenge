@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import "./styles/index.css";
-import { Navbar } from "./components";
+import { App } from "./components";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <Navbar />
+    <App />
   </React.StrictMode>,
 );
