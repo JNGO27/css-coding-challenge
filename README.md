@@ -8,6 +8,9 @@ Starter thoughts on `StarterNotes.md`.
 
 ```
 └── components/
+    ├── App/
+    │   ├── App.tsx
+    │
     ├── Navbar/
     │   ├── Navbar.tsx
     │   └── styles.css
